@@ -25,7 +25,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter discovery pioneer,$(TARGET_DEVICE)),)
+ifneq ($(filter discovery pioneer voyager,$(TARGET_DEVICE)),)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 

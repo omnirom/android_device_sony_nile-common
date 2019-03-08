@@ -39,7 +39,6 @@
 #include <android-base/properties.h>
 #include <android-base/strings.h>
 
-#include "vendor_init.h"
 #include "property_service.h"
 
 using android::base::GetProperty;
@@ -57,7 +56,10 @@ std::map<std::string, std::string> devices_map = {
     {"BY23", "H4213"},
     {"BY24", "H4233"},
     {"BY25", "H3223"},
+    {"BY46", "H4413"},
 };
+namespace android {
+namespace init {
 
 void property_override(char const prop[], char const value[])
 {
@@ -112,4 +114,6 @@ void vendor_load_properties()
     if (ReadFileToString("/proc/cei_fp_id", &cei_fp_id)) {
         property_set("ro.hardware.fingerprint", Trim(cei_fp_id).c_str());
     }
+}
+}
 }
