@@ -156,7 +156,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl:32 \
     android.hardware.camera.provider@2.4-service \
-    Snap \
+    SnapdragonCamera2 \
     vendor.qti.hardware.camera.device@1.0 \
     vendor.qti.hardware.camera.device@1.0_vendor
 
@@ -257,7 +257,7 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.nile
 
 # LiveDisplay
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service-sdm
 
 # Mac address setup
