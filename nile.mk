@@ -45,7 +45,11 @@ AB_OTA_POSTINSTALL_CONFIG += \
     POSTINSTALL_OPTIONAL_system=true
 
 PRODUCT_PACKAGES += \
-    otapreopt_script
+		otapreopt_script \
+		brillo_update_payload \
+		update_engine \
+		update_engine_sideload \
+		update_verifier
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
