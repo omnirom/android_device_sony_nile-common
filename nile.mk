@@ -148,6 +148,12 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     libgptutils \
     libz
 
+#Omni charger
+PRODUCT_PACKAGES += \
+    omni_charger_res_images \
+    animation.txt \
+    font_charger.png
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0
