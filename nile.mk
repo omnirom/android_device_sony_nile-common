@@ -295,6 +295,10 @@ PRODUCT_PACKAGES += \
     SecureElement \
     Tag
 
+PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.1 \
+    android.hardware.nfc@1.0
+
 # OMX
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
