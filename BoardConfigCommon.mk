@@ -205,7 +205,8 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
 # RIL
-TARGET_RIL_VARIANT := caf
+BOARD_PROVIDES_LIBRIL := true
+TARGET_USES_OLD_MNC_FORMAT := true
 
 # Root
 BOARD_ROOT_EXTRA_FOLDERS := bt_firmware dsp firmware idd persist rca
