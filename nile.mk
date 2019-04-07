@@ -21,8 +21,7 @@ $(call inherit-product, vendor/sony/nile-common/nile-common-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay
 
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
@@ -162,8 +161,7 @@ PRODUCT_PACKAGES += \
     SnapdragonCamera2 \
     vendor.qti.hardware.camera.device@1.0 \
     vendor.qti.hardware.camera.device@1.0_vendor \
-		camera.device@3.2-impl \
-	  libxml2
+    camera.device@3.2-impl
 
 # CNE
 PRODUCT_PACKAGES += \
@@ -314,7 +312,7 @@ PRODUCT_PACKAGES += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.1-service-qti \
-		power.sdm660 \
+    power.sdm660 \
     android.hardware.power@1.0-service \
     android.hardware.power@1.0-impl
 
