@@ -59,6 +59,5 @@
      "repository": "android_packages_apps_SnapdragonCamera2",
      "target_path": "packages/apps/SnapdragonCamera2",
      "revision": "android-9.0"
-   },
-
+   }
 ]
