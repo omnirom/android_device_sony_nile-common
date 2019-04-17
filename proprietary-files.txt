@@ -616,9 +616,11 @@ vendor/lib64/libperipheral_client.so
 etc/permissions/com.qti.snapdragon.sdk.display.xml
 framework/com.qti.snapdragon.sdk.display.jar
 lib64/libsd_sdk_display.so
+lib64/libsdm-disp-apis.so
 lib64/vendor.display.color@1.0.so
 lib64/vendor.display.postproc@1.0.so
 lib/libsd_sdk_display.so
+lib/libsdm-disp-apis.so
 lib/vendor.display.color@1.0.so
 lib/vendor.display.postproc@1.0.so
 vendor/bin/hw/vendor.display.color@1.0-service
