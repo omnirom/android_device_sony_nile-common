@@ -56,6 +56,7 @@ std::map<std::string, std::string> devices_map = {
     {"BY23", "H4213"},
     {"BY24", "H4233"},
     {"BY25", "H3223"},
+    {"BY43", "H4493"},
     {"BY46", "H4413"},
 };
 namespace android {
