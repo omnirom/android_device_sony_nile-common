@@ -212,6 +212,8 @@ PRODUCT_PACKAGES += \
     libqcomfm_jni \
     qcom.fmradio
 
+PRODUCT_BOOT_JARS += qcom.fmradio
+
 # For config.fs
 PRODUCT_PACKAGES += \
     fs_config_files
