@@ -50,6 +50,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.bt.bdaddr_path=/data/vendor/bluetooth/bluetooth_bdaddr \
     vendor.qcom.bluetooth.soc=cherokee
 
+# FM
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.bluetooth.soc=cherokee
+
 # CNE
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.cne.feature=1
